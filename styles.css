@@ -1,1 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    box-sizing: border-box;
+     padding: 0;
+     margin: 0; 
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.fa-carrot{
+    font-size: 40px;
+    padding-right: 20px;
+   
+}
+#head{
+    text-align: center;
+    background-color: olivedrab;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    font-size: 1rem;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.footer{
+    background-color: olivedrab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+  }
+
+
+  .fa-copyright{
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+.meals{
+    height: 300px;
+    width: 300px;
+}
+#information{
+    margin: 20px;
+    background-color: rgb(190, 210, 151);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.detail{
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border-radius: 1rem;
+}
+input{
+    margin: 10px;
+    font-weight: bolder;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(217, 241, 213);
+    color: black;
+}
+select {
+    font-weight: bolder;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin:15px ;
+    background-color: rgb(217, 241, 213);
+    color: black;
+    border: 1px solid black;
+    
+}
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#sub{
+    font-weight: bolder;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: olivedrab;
+    font-size: large;
+    margin: 30px;
+}
+#a{
+    text-align: center;
+    background-color: rgba(82, 146, 19, 0.34);
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+.meals {
+    margin: 30px 50px;
+    margin-bottom: 100px;
+}
+.card {
+    background-color: rgba(90, 93, 91, 0.866);
+    border-radius: 8px;
+    height: auto;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.details{
+    text-align: center;
+}
+
+ h4{
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 13, 0, 0.5);
+    color: white; 
+} 
+
+h5{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(249, 249, 247);
+}
+#recipe{
+    font-size: larger;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgb(50, 60, 52);
+    color: white;
+    margin: 0 auto;
+}
+
+#recipi-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+#recipe_detail{
+    width: 400px;
+    height: auto ;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 30px;
+    padding: 10px;
+}
+#ingredients_detail{
+    width: 400px;
+    height: auto ;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 30px;
+    text-align: center;
+}
+
+#ingredients_detail p{
+    margin:  20px 0;
+}
+#recipe_detail li{
+    margin: 20px 0;
+}
+#inf{
+    border: 2px solid black;
+    background-color: grey;
+    list-style-type:decimal;
+}
+#ingred{
+    border: 2px solid black;
+    list-style-type:decimal;
+}
+
+#loader {
+    height: 0;
+    width: 0;
+    padding: 15px;
+    border: 6px solid #ccc;
+    border-right-color: #888;
+    border-radius: 22px;
+    /*-webkit-animation: rotate 1s infinite linear;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+
+ 
+  
+  /*@-webkit-keyframes rotate {
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }*/
 

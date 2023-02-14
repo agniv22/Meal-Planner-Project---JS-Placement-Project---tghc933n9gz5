@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal planner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"/>
 
+</head>
+<body>
+    <div id="main-container">
+
+        <nav>
+          <div id="head">
+          <i class='fas fa-carrot'></i>
+          <h1 id="heading">Meal planner</h1>
+        </div>
+        </nav>
+
+        <div id="information">
+          <form id="info">
+            <input type="text" id="height" placeholder="Enter height in CM" maxlength="3" required/>
+            <input type="text" id="weight" placeholder="Enter weight in KG" maxlength="3" required/>
+            <input type="number" id="age" placeholder="Enter age" required max="100" min="1"/>
+            <select id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+             <select name="" id="Activity">
+               <option value="light">Light</option>
+               <option value="moderate">Moderate</option>
+               <option value="high">active</option>
+             </select>
+          
+             <button id="sub" type="button">Generate meal</button>
+          </form>
+        </div>
+
+        <h2 id="a"> Fill your details and we will suggest some awesome meals</h2>
+        <div id="display">
+          <div id="loader" style="display: none;"></div>
+        </div>
+          <div id="recipi-container">
+            <div id="recipe_detail"></div>
+            <div id="ingredients_detail"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <i class="fa-solid fa-copyright"></i>
+        <p>by Agniv</p>
+    </div>
+
+    <script src="App.js"></script> 
+
+</body>
+</html>
